@@ -1,0 +1,63 @@
+body{
+    height: 200%;
+    background-color: darkturquoise;
+}
+#main{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#box1,
+#box2,
+#box3,
+#box4
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#box2{
+    float: right;
+}
+#box4{
+    float: right;
+}
+#main img{
+    height: 100%;
+    width: 100%;
+}
+#i1{
+    position: absolute;
+    left:175px;
+    top:175px;
+}
+#i2{
+    position: absolute;
+    left:-175px;
+    top:175px;
+    transform: rotateY(180deg);
+}
+#i3{
+    position: absolute;
+    left:175px;
+    bottom: 175px;
+    transform: rotateX(180deg);
+}
+#i4{
+    position: absolute;
+    left: -175px;
+    bottom: 175px;
+    transform: rotateY(180deg) rotateX(180deg);
+}
+
+
+
+
+
+
+
